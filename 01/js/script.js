@@ -5,6 +5,8 @@ $(function () {
   const $submenu = $('.submenu');
   const duration = 300;
 
+  console.log($menu);
+
   //메뉴 영역에 마우스가 들어왔을 때
   $menu.on('mouseenter', function () {
     //해당 메뉴의 서브메뉴를 slide down
